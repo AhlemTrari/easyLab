@@ -26,6 +26,10 @@ Route::get('/', function () {
 Route::get('/frontOffice/equipes', function () {
     return view('frontOffice/equipes');
 });
+Route::get('/easy', function () {
+    return view('easy');
+});
+
 
 
 

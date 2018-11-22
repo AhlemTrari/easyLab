@@ -1,25 +1,23 @@
 @extends('layouts.frontOffice')
-	
-	
-		
 		  <!-- start banner Area -->
-				@section('banner')
-				<div cl0ass="overlay overlay-bg"></div>
+
+	@section('banner')
+	<section class="banner-area relative about-banner" id="home">	
+				<div class="overlay overlay-bg"></div>
 				<div class="container">				
 					<div class="row d-flex align-items-center justify-content-center">
 						<div class="about-content col-lg-12">
 							<h1 class="text-white">
-								Nos equipes		
+								Equipes				
 							</h1>	
-							<p class="text-white link-nav"><a href="index.html">Accueil </a>  <span class="lnr lnr-arrow-right"></span>  <a href="equipes.html"> Equipes</a></p>
+							<p class="text-white link-nav"><a href="index.html">Accueil </a>  <span class="lnr lnr-arrow-right"></span>  <a href="about.html"> equipes</a></p>
 						</div>	
 					</div>
 				</div>
-				@endsection
-			
-			
-			
-			@section('content')
+		</section>
+	@endsection
+
+	@section('content')
 			<section class="course-details-area ">
 				<div class="container">
 					<div class="row">
@@ -49,7 +47,7 @@
 											</div>
 											<div class="row col-md-12">
 												<div class="feature-img">
-												<img class="img-fluid" src="img/lab.jpg" alt="">
+												<img class="img-fluid" src="lab.jpg" alt="">
 												</div>
 											</div>
 	                                    	
@@ -63,7 +61,7 @@
 											<div class="container">					
 												<div class="row">
 													<div class="col-12 col-md-2 thumb">
-													<img class="img-fluid" src="img/s.png" alt="">
+													<img class="img-fluid" src="s.png" alt="">
 													</div>
 													<div class="detials col-12 col-md-4">
 													
@@ -71,7 +69,7 @@
 													<p><h4>Système d'information et de connaissance</h4></p>
 													</div>
 													<div class="col-12 col-md-2 thumb">
-													<img class="img-fluid" src="img/c.jpg" alt="">
+													<img class="img-fluid" src="c.jpg" alt="">
 													</div>
 													<div class="detials col-12 col-md-4">
 													
@@ -83,7 +81,7 @@
 												
 												<div class="row">
 													<div class="col-12 col-md-2 thumb">
-													<img class="img-fluid" src="img/RSD.png" alt="">
+													<img class="img-fluid" src="{{asset('RSD.jpeg')}}">
 													</div>
 													<div class="detials col-12 col-md-4">
 													<p></p>
@@ -91,7 +89,7 @@
 													<p><h4>Réseau, service distribués et systèmes</h4></p>
 													</div>
 													<div class="col-12 col-md-2 thumb">
-													<img class="img-fluid" src="img/IA.jpg" alt="">
+													<img class="img-fluid" src="{{asset('IA.jpg')}}" alt="">
 													</div>
 													<div class="detials col-12 col-md-4">
 													
