@@ -1,15 +1,9 @@
 @extends('layouts.frontOffice')
 		  <!-- start banner Area -->
-<<<<<<< HEAD
-				@section('banner')
-				<section class="banner-area relative about-banner" id="home">
-				<div cl0ass="overlay overlay-bg"></div>
-=======
 
 	@section('banner')
 	<section class="banner-area relative about-banner" id="home">	
 				<div class="overlay overlay-bg"></div>
->>>>>>> 3b59c103c29441d7edd69d4f847cdc8bac6429d4
 				<div class="container">				
 					<div class="row d-flex align-items-center justify-content-center">
 						<div class="about-content col-lg-12">
@@ -20,19 +14,10 @@
 						</div>	
 					</div>
 				</div>
-<<<<<<< HEAD
-				</section>
-				@endsection
-			
-			
-			
-			@section('content')
-=======
 		</section>
 	@endsection
 
 	@section('content')
->>>>>>> 3b59c103c29441d7edd69d4f847cdc8bac6429d4
 			<section class="course-details-area ">
 				<div class="container">
 					<div class="row">
