@@ -4,7 +4,7 @@
 	<!-- Mobile Specific Meta -->
 		<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 		<!-- Favicon-->
-		<link rel="shortcut icon" href="{{asset('fav.png')}}">
+		<link rel="shortcut icon" href="img/fav.png">
 		<!-- Meta Description -->
 		<meta name="description" content="">
 		<!-- Meta Keyword -->
@@ -85,12 +85,65 @@
 		    </div>
 		</header><!-- #header -->
 
+		<section class="banner-area relative about-banner" id="home">	
+				<div class="overlay overlay-bg"></div>
+				<div class="container">				
+					<div class="row d-flex align-items-center justify-content-center">
+						<div class="about-content col-lg-12">
+							<h1 class="text-white">
+								Membres				
+							</h1>	
+							<p class="text-white link-nav"><a href="index.html">Accueil </a>  <span class="lnr lnr-arrow-right"></span>  <a href="about.html"> Membres</a></p>
+						</div>	
+					</div>
+				</div>
+		</section>
 
-				@yield('banner')
+		<section class="events-list-area section-gap event-page-lists">
 
+			<div class="container">
 
+			<div class="row">
+				<div class="col-md-3">
+						
+							<img src="img/blog/user-info.png" alt="">
+							<a href="#"><h4>Charlie Barber</h4></a>
+							
+							<p>	Senior blog writer </p>
+									<a href="#"><i class="fa fa-facebook"></i></a>
+									<a href="#"><i class="fa fa-twitter"></i></a>
+									<a href="#"><i class="fa fa-github"></i></a>			
+				</div>
 
-@yield('content')
+				<div class="col-md-3">
+		
+					<img src="img/blog/user-info.png" alt="">
+					<a href="#"><h4>Charlie Barber</h4></a>
+					<p>	Senior blog writer </p>
+						<ul class="social-links">
+							<li><a href="#"><i class="fa fa-facebook"></i></a></li>
+							<li><a href="#"><i class="fa fa-twitter"></i></a></li>
+							<li><a href="#"><i class="fa fa-github"></i></a></li>
+							<li><a href="#"><i class="fa fa-behance"></i></a></li>
+						</ul>
+				</div>													
+			</div>
+
+			<div class="col-md-3 ">
+				
+					<img src="img/blog/user-info.png" alt="">
+					<a href="#"><h4>Charlie Barber</h4></a>
+					<p>	Senior blog writer </p>
+						<ul class="social-links">
+							<li><a href="#"><i class="fa fa-facebook"></i></a></li>
+							<li><a href="#"><i class="fa fa-twitter"></i></a></li>
+							<li><a href="#"><i class="fa fa-github"></i></a></li>
+							<li><a href="#"><i class="fa fa-behance"></i></a></li>
+						</ul>
+				</div>													
+			</div>
+
+		</section>
 
 
 			<!-- start footer Area -->		

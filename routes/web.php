@@ -23,11 +23,17 @@ Route::get('/', function () {
 
 
 	// frontOffice
+
 Route::get('/frontOffice/equipes', function () {
     return view('frontOffice/equipes');
 });
+Route::get('/frontOffice/membres', function () {
+    return view('frontOffice/membres');
+});
 
 
+
+	// backoffice
 
 Route::get('dashboard','dashController@index');
 Route::get('parametre','ParametreController@create');
