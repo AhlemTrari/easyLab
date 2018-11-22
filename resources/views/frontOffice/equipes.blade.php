@@ -61,7 +61,7 @@
 											<div class="container">					
 												<div class="row">
 													<div class="col-12 col-md-2 thumb">
-													<img class="img-fluid" src="s.png" alt="">
+													<img class="img-fluid" src="{{asset('sidk.png')}}" alt="">
 													</div>
 													<div class="detials col-12 col-md-4">
 													
@@ -69,7 +69,7 @@
 													<p><h4>Système d'information et de connaissance</h4></p>
 													</div>
 													<div class="col-12 col-md-2 thumb">
-													<img class="img-fluid" src="c.jpg" alt="">
+													<img class="img-fluid" src="{{asset('s.jpg')}}" alt="">
 													</div>
 													<div class="detials col-12 col-md-4">
 													

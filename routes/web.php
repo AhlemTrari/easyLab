@@ -27,9 +27,14 @@ Route::get('/', function () {
 Route::get('/frontOffice/equipes', function () {
     return view('frontOffice/equipes');
 });
+Route::get('/frontOffice/detailsEquipe', function () {
+    return view('frontOffice/detailsEquipe');
+});
 Route::get('/frontOffice/membres', function () {
     return view('frontOffice/membres');
 });
+
+
 
 
 
