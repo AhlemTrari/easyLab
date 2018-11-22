@@ -89,9 +89,8 @@
 				@yield('banner')
 		</section>
 
-		<section>
-				@yield('centent')
-		</section>
+		@yield('centent')
+
 
 			<!-- start footer Area -->		
 			<footer class="footer-area section-gap">
