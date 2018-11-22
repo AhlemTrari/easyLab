@@ -8,9 +8,9 @@
 					<div class="row d-flex align-items-center justify-content-center">
 						<div class="about-content col-lg-12">
 							<h1 class="text-white">
-								Equipes				
+								Nos équipes				
 							</h1>	
-							<p class="text-white link-nav"><a href="index.html">Accueil </a>  <span class="lnr lnr-arrow-right"></span>  <a href="about.html"> equipes</a></p>
+							<p class="text-white link-nav"><a href="index.html">Accueil   </a>  <span class="fas fa-angle-right"></span>  <a href="about.html">   equipes</a></p>
 						</div>	
 					</div>
 				</div>
