@@ -85,7 +85,9 @@
 		    </div>
 		</header><!-- #header -->
 
-		@yield('banner')
+
+				@yield('banner')
+
 
 
 @yield('content')
