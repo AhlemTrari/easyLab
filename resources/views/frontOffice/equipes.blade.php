@@ -4,6 +4,7 @@
 		
 		  <!-- start banner Area -->
 				@section('banner')
+				<section class="banner-area relative about-banner" id="home">
 				<div cl0ass="overlay overlay-bg"></div>
 				<div class="container">				
 					<div class="row d-flex align-items-center justify-content-center">
@@ -15,6 +16,7 @@
 						</div>	
 					</div>
 				</div>
+				</section>
 				@endsection
 			
 			

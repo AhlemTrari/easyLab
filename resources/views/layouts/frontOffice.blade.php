@@ -85,9 +85,8 @@
 		    </div>
 		</header><!-- #header -->
 
-		<section class="banner-area relative about-banner" id="home">	
 				@yield('banner')
-		</section>
+	
 
 		@yield('centent')
 
