@@ -34,6 +34,10 @@ Route::get('/frontOffice/membres', function () {
     return view('frontOffice/membres');
 });
 
+Route::get('/frontOffice/contact', function () {
+    return view('frontOffice/contact');
+});
+
 
 
 
