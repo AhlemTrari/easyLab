@@ -22,6 +22,27 @@ Route::get('/', function () {
 });
 
 
+	// frontOffice
+
+Route::get('/frontOffice/equipes', function () {
+    return view('frontOffice/equipes');
+});
+Route::get('/frontOffice/detailsEquipe', function () {
+    return view('frontOffice/detailsEquipe');
+});
+Route::get('/frontOffice/membres', function () {
+    return view('frontOffice/membres');
+});
+
+Route::get('/frontOffice/contact', function () {
+    return view('frontOffice/contact');
+});
+
+
+
+
+
+	// backoffice
 
 Route::get('dashboard','dashController@index');
 Route::get('parametre','ParametreController@create');
